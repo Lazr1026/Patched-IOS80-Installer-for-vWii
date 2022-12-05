@@ -27,4 +27,4 @@ s32 install_unpatched_IOS(u32 iosversion, u32 revision, bool free);
 s32 checkTitle(u64 title);
 s32 checkIOS(u32 IOS);
 
-bool network_initialized;
+extern bool network_initialized;
